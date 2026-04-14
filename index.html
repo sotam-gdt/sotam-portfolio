@@ -522,7 +522,7 @@
       <div class="hero-social">
         <a href="mailto:sotam1992@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
         <a href="tel:+918871025543" title="Phone"><i class="fas fa-phone"></i></a>
-        <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.linkedin.com/in/sotam-patel-87a17a122/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
         <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
       </div>
     </div>
@@ -919,11 +919,11 @@
             <div class="contact-detail-val">+91-8871025543</div>
           </div>
         </a>
-        <a href="https://linkedin.com" target="_blank" class="contact-card">
+        <a href="https://www.linkedin.com/in/sotam-patel-87a17a122/" target="_blank" class="contact-card">
           <div class="contact-icon linkedin"><i class="fab fa-linkedin-in"></i></div>
           <div>
             <div class="contact-detail-label">LinkedIn</div>
-            <div class="contact-detail-val">Connect with me</div>
+            <div class="contact-detail-val">sotam-patel-87a17a122</div>
           </div>
         </a>
         <div class="contact-card" style="cursor:default;">
@@ -935,24 +935,27 @@
         </div>
       </div>
       <div class="contact-form reveal">
-        <form onsubmit="handleSubmit(event)">
+        <form action="https://formsubmit.co/sotam1992@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://sotam-portfolio-64mh.vercel.app/#contact" />
+          <input type="hidden" name="_subject" value="New message from Portfolio" />
           <div class="form-group">
             <label>Your Name</label>
-            <input type="text" placeholder="John Doe" required />
+            <input type="text" name="name" placeholder="John Doe" required />
           </div>
           <div class="form-group">
             <label>Email Address</label>
-            <input type="email" placeholder="john@example.com" required />
+            <input type="email" name="email" placeholder="john@example.com" required />
           </div>
           <div class="form-group">
             <label>Subject</label>
-            <input type="text" placeholder="Project Discussion" required />
+            <input type="text" name="subject" placeholder="Project Discussion" required />
           </div>
           <div class="form-group">
             <label>Message</label>
-            <textarea placeholder="Tell me about your project or opportunity..." required></textarea>
+            <textarea name="message" placeholder="Tell me about your project or opportunity..." required></textarea>
           </div>
-          <button type="submit" class="form-submit" id="submitBtn">
+          <button type="submit" class="form-submit">
             <i class="fas fa-paper-plane"></i> Send Message
           </button>
         </form>
