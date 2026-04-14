@@ -61,14 +61,14 @@
       position: relative;
     }
     .logo img {
-      height: 44px; width: auto;
-      border-radius: 8px;
-      filter: drop-shadow(0 0 10px rgba(99,179,237,0.35)) drop-shadow(0 0 24px rgba(127,90,240,0.25));
+      height: 52px; width: auto;
+      mix-blend-mode: screen;
+      filter: drop-shadow(0 0 8px rgba(99,179,237,0.5)) brightness(1.1);
       transition: filter 0.3s, transform 0.3s;
     }
     .logo:hover img {
-      filter: drop-shadow(0 0 14px rgba(99,179,237,0.6)) drop-shadow(0 0 32px rgba(127,90,240,0.45));
-      transform: scale(1.04);
+      filter: drop-shadow(0 0 16px rgba(99,179,237,0.8)) drop-shadow(0 0 30px rgba(127,90,240,0.6)) brightness(1.2);
+      transform: scale(1.05);
     }
     .nav-links { display: flex; gap: 2rem; list-style: none; }
     .nav-links a {
